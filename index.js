@@ -81,7 +81,7 @@ app.post('/api/migrate', upload.single('archivo'), (req, res) => {
             });
         })
         .on('error', (err) => {
-            console.error("❌ Error procesando el CSV:", err);
+            console.error("Error procesando el CSV:", err);
             return res.status(500).json({ error: "Error interno al leer el archivo" });
         });
 });
@@ -110,5 +110,5 @@ app.get('/api/patients/:email/history', async (req, res) => {
 // Iniciar Servidor
 const PORT = 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 Servidor SaludPlus corriendo en http://localhost:${PORT}`);
+    console.log(` Servidor SaludPlus corriendo en http://localhost:${PORT}`);
 });
