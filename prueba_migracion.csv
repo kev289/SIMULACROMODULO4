@@ -1,0 +1,4 @@
+appointment_id,appointment_date,patient_name,patient_email,patient_phone,patient_address,doctor_name,doctor_email,specialty,treatment_code,treatment_description,treatment_cost,insurance_provider,coverage_percentage,amount_paid
+APT-2001,2026-02-01,Roberto Gomez,roberto.g@mail.com,3101234567,Calle Falsa 123,Dr. Carlos Ruiz,c.ruiz@saludplus.com,Cardiology,TRT-001,General Consultation,120000,SaludTotal,80,24000.0
+APT-2002,2026-02-05,Elena Nito,elena.n@mail.com,3209876543,Avenida Siempreviva 742,Dr. Natalia Perez,n.perez@saludplus.com,Pediatrics,TRT-005,Blood Test,90000,ProteccionMedica,60,36000.0
+APT-2003,2026-02-10,Armando Casas,armando.c@mail.com,3155554433,Carrera 50 #10-20,Dr. Andres Silva,a.silva@saludplus.com,Orthopedics,TRT-003,X-Ray,250000,SinSeguro,0,250000.0
